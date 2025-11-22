@@ -42,7 +42,7 @@ export default function Skills() {
                 >
                   {/* GPU OPTIMIZED BAR */}
                   <div
-                    className="h-full bg-linear-to-r from-red-600 to-orange-600 shadow-[0_0_10px_rgba(220,38,38,0.8)] origin-left transition-transform duration-2400ms ease-out"
+                    className="h-full bg-linear-to-r from-red-600 to-orange-600 shadow-[0_0_10px_rgba(220,38,38,0.8)] origin-left transition-transform duration-1400ms ease-out"
                     style={{
                       transform: visible
                         ? `scaleX(${skill.level / 100})`
